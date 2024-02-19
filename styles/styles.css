@@ -1,0 +1,133 @@
+/*
+Font = Trebuchet MS
+dark background: #4b782e / rgb(75,120,46)
+Light Background: #a7d535 / rgba(167,213,53,255)
+light font: #dce3d4 / rgb(220,227,212)
+dark font: #242423 / rgb(36,36,35)
+
+other dark background: #4c8431 / rgb(76,132,49)
+*/
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+#content {
+    background-color: #4c8431;
+    max-width: 1600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #dce3d4;
+    margin: 0 auto;
+}
+
+.headerBox {
+    background-color: rgba(76,132,49, 0.5);
+    color: #242423;
+}
+
+.headerBox h2 {
+    margin: 0 auto;
+    padding-top: 1.5vh;
+}
+
+.headerBox h3 {
+    margin: 0 auto;
+    padding-bottom: 1.5vh;
+}
+
+nav {
+    background-color: #242423;
+    border-top: 2px solid #a7d535;
+    border-bottom: 2px solid #a7d535;
+    width: 100%;
+    display: inline-flex;
+}
+
+nav a {
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    color: #dce3d4;
+    border: 1px solid #a7d535;
+    padding: 1vh 0 1vh 0;
+    font-size: 0.9em;
+}
+
+.selectedPage {
+    background-color: #a7d535;
+    color: #242423;
+}
+
+#heroImage {
+    padding: 1.5vh 0 1.5vh 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.pageText {
+    margin: 1.5vw 1vw;
+}
+
+.registerLink {
+    text-decoration: none;
+    color: #dce3d4;
+}
+
+.registerLink:hover {
+    color: #242423;
+    font-weight: bold;
+}
+
+.registerButton {
+    display: block;
+    margin: 0 auto;
+    padding: 3vh 0;
+    width: 50%;
+    min-height: 50px;
+    background-color: #242423;
+    border: 3px solid #a7d535;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #dce3d4;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+.registerButton:hover {
+    background-color: #a7d535;
+    border: 3px solid #242423;
+    color: #242423;
+}
+
+footer {
+    border-top: 3px solid #a7d535;
+    background-color: #242423;
+    text-align: center;
+    display: inline-flex;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+footer a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #dce3d4;
+    padding: 2vh 0 2vh 0;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 600px) {
+    #content {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #content {
+        font-size: 12px;
+    }
+}
