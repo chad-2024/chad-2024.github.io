@@ -1,12 +1,20 @@
 /*
 Font = Trebuchet MS
-dark background: #4b782e / rgb(75,120,46)
-Light Background: #a7d535 / rgba(167,213,53,255)
-light font: #dce3d4 / rgb(220,227,212)
-dark font: #242423 / rgb(36,36,35)
-
-other dark background: #4c8431 / rgb(76,132,49)
 */
+
+:root {
+    --background-dark: #006CAE;
+    --background-middle: #D2D2D2;
+    --background-light: #FFFFFF;
+    --background-navbar: #F2F2F2;
+    --background-current-page: rgba(0,0,0, 0.1);
+    --font-light: #ffffff;
+    --font-heading: #4D4D4D;
+    --font-normal: #5A5A5A;
+}
+
+
+
 
 * {
     box-sizing: border-box;
@@ -14,16 +22,16 @@ other dark background: #4c8431 / rgb(76,132,49)
 }
 
 #content {
-    background-color: #4c8431;
+    background-color: var(--background-light);
     max-width: 1600px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #dce3d4;
+    color: var(--font-normal);
     margin: 0 auto;
 }
 
 .headerBox {
-    background-color: rgba(76,132,49, 0.5);
-    color: #242423;
+    background-color: var(--background-dark);
+    color: var(--font-light);
 }
 
 .headerBox h2 {
@@ -37,9 +45,9 @@ other dark background: #4c8431 / rgb(76,132,49)
 }
 
 nav {
-    background-color: #242423;
-    border-top: 2px solid #a7d535;
-    border-bottom: 2px solid #a7d535;
+    background-color:var(--background-navbar);
+    border-top: 2px solid var(--background-middle);
+    border-bottom: 2px solid var(--background-middle);
     width: 100%;
     display: inline-flex;
 }
@@ -48,15 +56,15 @@ nav a {
     width: 25%;
     text-align: center;
     text-decoration: none;
-    color: #dce3d4;
-    border: 1px solid #a7d535;
+    color: var(--font-heading);
+    border: 1px solid var(--background-current-page);
     padding: 1vh 0 1vh 0;
     font-size: 0.9em;
 }
 
 .selectedPage {
-    background-color: #a7d535;
-    color: #242423;
+    background-color: var(--background-current-page);
+    color: var(--font-heading);
 }
 
 #heroImage {
@@ -71,11 +79,12 @@ nav a {
 
 .registerLink {
     text-decoration: none;
-    color: #dce3d4;
+    color: var(--font-heading);
+    font-weight: bold;
 }
 
 .registerLink:hover {
-    color: #242423;
+    color: var(--background-dark);
     font-weight: bold;
 }
 
@@ -85,11 +94,11 @@ nav a {
     padding: 3vh 0;
     width: 50%;
     min-height: 50px;
-    background-color: #242423;
-    border: 3px solid #a7d535;
+    background-color: var(--background-middle);
+    border: 3px solid var(--background-dark);
     border-radius: 10px;
     text-decoration: none;
-    color: #dce3d4;
+    color: var(--font-heading);
     font-weight: bold;
     font-size: 1.2em;
     text-align: center;
@@ -97,14 +106,14 @@ nav a {
 
 
 .registerButton:hover {
-    background-color: #a7d535;
-    border: 3px solid #242423;
-    color: #242423;
+    background-color: var(--background-dark);
+    border: 3px solid var(--font-heading);
+    color: var(--font-light);
 }
 
 footer {
-    border-top: 3px solid #a7d535;
-    background-color: #242423;
+    border-top: 3px solid var(--background-middle);
+    background-color: var(--background-navbar);
     text-align: center;
     display: inline-flex;
     width: 100%;
@@ -115,7 +124,7 @@ footer a {
     width: 100%;
     text-align: center;
     text-decoration: none;
-    color: #dce3d4;
+    color: var(--font-normal);
     padding: 2vh 0 2vh 0;
     font-size: 0.8em;
 }
