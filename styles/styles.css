@@ -94,21 +94,20 @@ nav a {
     padding: 3vh 0;
     width: 50%;
     min-height: 50px;
-    background-color: var(--background-middle);
-    border: 3px solid var(--background-dark);
+    background-color: var(--background-dark);
+    border: 3px solid var(--font-heading);
     border-radius: 10px;
     text-decoration: none;
-    color: var(--font-heading);
+    color: var(--font-light);
     font-weight: bold;
     font-size: 1.2em;
     text-align: center;
 }
 
-
 .registerButton:hover {
-    background-color: var(--background-dark);
-    border: 3px solid var(--font-heading);
-    color: var(--font-light);
+    background-color: var(--background-middle);
+    border: 3px solid var(--background-dark);
+    color: var(--font-heading);
 }
 
 footer {
