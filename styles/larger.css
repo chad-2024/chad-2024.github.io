@@ -1,0 +1,38 @@
+@media screen and (min-width: 650px) {
+
+    #content {
+        max-width: 1600px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header h1, header h2 {
+        margin: 1rem;
+    }
+
+    #logo {
+        max-height: 120px;
+        max-width: 120px;
+    }
+
+    #navbarButton {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .navbar li {
+        flex: 1 1 100%;
+    }
+
+    #navFooter {
+        display: none;
+    }
+
+}

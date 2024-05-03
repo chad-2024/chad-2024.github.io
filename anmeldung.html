@@ -5,37 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChAD Tagung 2024 - Stuttgart</title>
-    <link rel="stylesheet" href="styles/styles.css"
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
     <div id="content">
-        
+
         <header>
+            <img id="logo" src="images/profilbild.png" alt="CHAD Logo">
             <div class="headerBox">
-                <h2 style="text-align: center;">ChAD Tagung - Stuttgart</h2>
-                <h3 style="text-align: center;">05.08.-09.08.2024</h3>
+                <h1 style="text-align: center;">ChAD Tagung - Stuttgart</h1>
+                <h2 style="text-align: center;">05.08.-09.08.2024</h2>
             </div>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="information.html">Information</a>
-                <a class="selectedPage" href="anmeldung.html">Anmeldung</a>
-                <a href="kontakt.html">Kontakt</a>
-            </nav>
         </header>
+
+        <nav>
+            <button id="navbarButton"></button>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="anreise.html">Anreise</a></li>
+                <li><a class="selectedPage" href="anmeldung.html">Anmeldung</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
 
         <main>
             <div class="pageText">
                 <h3>Inhalt muss noch definiert werden</h3>
-                <p><a class="registerLink" target="_blank" href="https://forms.office.com/r/2DHwrfN7Wk">Anmelde Formular</a> ausfullen</p>
+                <p><a class="registerLink" target="_blank" href="https://forms.office.com/r/2DHwrfN7Wk">Anmelde
+                        Formular</a> ausfullen</p>
                 <p>Teilnehmerbeitrag überweisen</p>
-                <a class="registerButton" target="_blank" href="https://forms.office.com/r/2DHwrfN7Wk">Jetzt Anmelden</a>
+                <a class="registerButton" target="_blank" href="https://forms.office.com/r/2DHwrfN7Wk">Jetzt
+                    Anmelden</a>
             </div>
+
         </main>
 
+        <div id="navFooter">
+            <ul class="navbarFooter">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="anreise.html">Anreise</a></li>
+                <li><a href="anmeldung.html">Anmeldung</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+
         <footer>
-            <a href="#">Instagram (add link)</a>
+            <a href="https://www.instagram.com/chad2024_stuttgart?igsh=MTh0eHpoaXExc3o3YQ=="
+                target="_blank">Instagram</a>
         </footer>
     </div>
+
+    <script src="scripts/hamburger.js"></script>
 </body>
+
 </html>
