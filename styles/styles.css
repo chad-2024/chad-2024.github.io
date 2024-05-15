@@ -235,7 +235,7 @@ footer a {
     margin: 1rem auto;
 }
 
-.djhImage {
+.djhImage, .orgaImage {
     width: 100%;
     height: auto;
     max-width: 550px;
@@ -243,7 +243,19 @@ footer a {
     border-radius: 5px;
 }
 
+.orgaPicture {
+    display: inline-block;
+}
+
+.orgaPicture h4 {
+    margin-bottom: 0.1rem;
+}
+
 #anreiseLink {
     margin-top: 0.5rem;
+}
+
+li {
+    list-style-type: none;
 }
 
