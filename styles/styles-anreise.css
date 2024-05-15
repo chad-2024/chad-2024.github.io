@@ -1,0 +1,276 @@
+/*
+Font = Trebuchet MS
+
+Version 1
+:root {
+    --background-dark: #006CAE;
+    --background-middle: #D2D2D2;
+    --background-light: #FFFFFF;
+    --background-navbar: #F2F2F2;
+    --background-current-page: rgba(0,0,0, 0.1);
+    --font-light: #ffffff;
+    --font-heading: #4D4D4D;
+    --font-normal: #5A5A5A;
+}
+
+Version 2
+:root {
+    --background-dark: #125E8A;
+    --background-middle: #ABC4FF;
+    --background-light: #FFFFFF;
+    --background-navbar: #D7E3FC;
+    --background-current-page: rgba(171,196,255, 0.1);
+    --font-light: #ffffff;
+    --font-heading: #051924;
+    --font-normal: #072636;
+} 
+
+Sabine's version
+:root {
+    --background-dark: #A0C4E2; 
+    --background-middle: #9CADCE;
+    --background-light: #FFFFFF;
+    --background-navbar: #C6DBF0;
+    --background-current-page: rgba(171,196,255, 0.1);
+    --font-light: #ffffff;
+    --font-heading: #2F4858;
+    --font-normal: #2F4858;
+} 
+
+*/
+
+:root {
+    --background-dark: #e3d5ca; 
+    --background-middle: #fefae0;
+    --background-light: #FFFFFF;
+    --background-navbar: #e3d5ca90;
+    --background-current-page: #fefae090;
+    --font-light: #ffffff;
+    --font-heading: #292F36;
+    --font-normal: #292F36;
+} 
+
+* {
+    box-sizing: border-box;
+}
+
+#content {
+    background-color: var(--background-light);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--font-normal);
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: var(--background-dark);
+    color: var(--font-light);
+    font-weight: bold;
+    width: 100%;
+    padding: 1rem;
+}
+
+#logo {
+    width: 90%;
+    max-height: 200px;
+    max-width: 200px;
+    margin: 1rem;
+}
+
+header h1, header h2 {
+    margin: 0.5rem 1rem 1rem 1rem;
+}
+
+.travelHeading {
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+nav, #navFooter {
+    background-color:var(--background-navbar);
+    border-top: 2px solid var(--background-middle);
+    border-bottom: 2px solid var(--background-middle);
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: right;
+}
+
+.navbar, .navbarFooter {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: none;
+}
+
+.navbar a:link, .navbar a:visited, footer a:link, footer a:visited, .navbarFooter a:link, .navbarFooter a:visited  {
+    color: var(--font-normal);
+    font-weight: bold;
+}
+
+.navbar li:hover, .navbar a:hover, footer a:hover, .navbarFooter a:hover{
+    color: var(--font-normal);
+    background-color: var(--background-middle);
+}
+
+#navbarButton {
+    padding: 0.3rem;
+    text-align: center;
+    margin: 0.3rem;
+
+}
+
+#navbarButton::before {
+    content: "☰";
+    font-size: 1.5rem;
+}
+
+#navbarButton.display::before {
+	content: "X";
+    font-size: 1.5rem;
+}
+
+.displayMenu {
+    display: block;
+}
+
+.display {
+    display: inline-block;
+}
+
+.navbar a, .navbarFooter a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--font-heading);
+    border: 1px solid var(--background-middle);
+    padding: 1rem 0;
+}
+
+.selectedPage {
+    background-color: var(--background-current-page);
+    color: var(--font-heading);
+}
+
+#heroImage {
+    padding: 1.5vh 0 1.5vh 0;
+    display: block;
+    margin: 0 auto;
+    max-width: 360px;
+}
+
+main {
+    margin: 1.5rem auto;
+}
+
+.pageText {
+    margin: 1.5vw 1vw;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.linky {
+    color: var(--font-heading);
+}
+
+.linky:hover {
+    color: var(--background-dark);
+}
+
+.registerLink {
+    text-decoration: none;
+    color: var(--font-heading);
+    font-weight: bold;
+}
+
+.registerLink:hover {
+    color: var(--background-dark);
+    font-weight: bold;
+}
+
+.registerButton {
+    display: block;
+    margin: 0 auto;
+    padding: 3vh 0;
+    width: 50%;
+    min-height: 50px;
+    background-color: var(--background-navbar);
+    border: 3px solid var(--background-dark);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--font-normal);
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.registerButton:hover {
+    background-color: var(--background-dark);
+    border: 3px solid var(--font-normal);
+}
+
+footer {
+    border-top: 3px solid var(--background-middle);
+    background-color: var(--background-navbar);
+    text-align: center;
+    display: inline-flex;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+footer a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--font-normal);
+    padding: 2vh 0 2vh 0;
+    font-size: 0.8rem;
+}
+
+
+.travelHeading {
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+.djhGallery {
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.djhImage, .orgaImage {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    margin: 0.2rem auto;
+    border-radius: 5px;
+}
+
+.orgaPicture {
+    display: inline-block;
+}
+
+.orgaPicture h4 {
+    margin-bottom: 0.1rem;
+}
+
+#anreiseLink {
+    margin-top: 0.5rem;
+}
+
+.teamMembers {
+    padding: 0;
+}
+
+.teamMembers li {
+    list-style-type: none;
+}
+
