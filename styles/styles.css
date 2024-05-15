@@ -25,10 +25,9 @@ Version 2
     --font-normal: #072636;
 } 
 
-*/
-
+Sabine's version
 :root {
-    --background-dark: #A0C4E2; /*C1D3FE */
+    --background-dark: #A0C4E2; 
     --background-middle: #9CADCE;
     --background-light: #FFFFFF;
     --background-navbar: #C6DBF0;
@@ -36,6 +35,19 @@ Version 2
     --font-light: #ffffff;
     --font-heading: #2F4858;
     --font-normal: #2F4858;
+} 
+
+*/
+
+:root {
+    --background-dark: #ccd5ae; 
+    --background-middle: #fefae0;
+    --background-light: #FFFFFF;
+    --background-navbar: #e3d5ca;
+    --background-current-page: #fefae080;
+    --font-light: #ffffff;
+    --font-heading: #292F36;
+    --font-normal: #292F36;
 } 
 
 * {
@@ -201,9 +213,8 @@ main {
 }
 
 .registerButton:hover {
-    background-color: var(--background-middle);
-    border: 3px solid var(--background-navbar);
-    color: var(--font-light);
+    background-color: var(--background-dark);
+    border: 3px solid var(--font-normal);
 }
 
 footer {
