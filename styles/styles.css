@@ -255,7 +255,11 @@ footer a {
     margin-top: 0.5rem;
 }
 
-li {
+.teamMembers {
+    padding: 0;
+}
+
+.teamMembers li {
     list-style-type: none;
 }
 
