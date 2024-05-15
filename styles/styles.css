@@ -1,7 +1,19 @@
 /*
 Font = Trebuchet MS
-*/
 
+Version 1
+:root {
+    --background-dark: #006CAE;
+    --background-middle: #D2D2D2;
+    --background-light: #FFFFFF;
+    --background-navbar: #F2F2F2;
+    --background-current-page: rgba(0,0,0, 0.1);
+    --font-light: #ffffff;
+    --font-heading: #4D4D4D;
+    --font-normal: #5A5A5A;
+}
+
+Version 2
 :root {
     --background-dark: #125E8A;
     --background-middle: #ABC4FF;
@@ -11,6 +23,19 @@ Font = Trebuchet MS
     --font-light: #ffffff;
     --font-heading: #051924;
     --font-normal: #072636;
+} 
+
+*/
+
+:root {
+    --background-dark: #A0C4E2; /*C1D3FE */
+    --background-middle: #9CADCE;
+    --background-light: #FFFFFF;
+    --background-navbar: #C6DBF0;
+    --background-current-page: rgba(171,196,255, 0.1);
+    --font-light: #ffffff;
+    --font-heading: #2F4858;
+    --font-normal: #2F4858;
 } 
 
 * {
@@ -165,11 +190,11 @@ main {
     padding: 3vh 0;
     width: 50%;
     min-height: 50px;
-    background-color: var(--background-dark);
-    border: 3px solid var(--font-heading);
+    background-color: var(--background-navbar);
+    border: 3px solid var(--background-dark);
     border-radius: 10px;
     text-decoration: none;
-    color: var(--font-light);
+    color: var(--font-normal);
     font-weight: bold;
     font-size: 1.2rem;
     text-align: center;
@@ -177,8 +202,8 @@ main {
 
 .registerButton:hover {
     background-color: var(--background-middle);
-    border: 3px solid var(--background-dark);
-    color: var(--font-heading);
+    border: 3px solid var(--background-navbar);
+    color: var(--font-light);
 }
 
 footer {
