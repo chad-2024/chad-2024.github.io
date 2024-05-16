@@ -1,31 +1,7 @@
 /*
 Font = Trebuchet MS
 
-Version 1
-:root {
-    --background-dark: #006CAE;
-    --background-middle: #D2D2D2;
-    --background-light: #FFFFFF;
-    --background-navbar: #F2F2F2;
-    --background-current-page: rgba(0,0,0, 0.1);
-    --font-light: #ffffff;
-    --font-heading: #4D4D4D;
-    --font-normal: #5A5A5A;
-}
-
-Version 2
-:root {
-    --background-dark: #125E8A;
-    --background-middle: #ABC4FF;
-    --background-light: #FFFFFF;
-    --background-navbar: #D7E3FC;
-    --background-current-page: rgba(171,196,255, 0.1);
-    --font-light: #ffffff;
-    --font-heading: #051924;
-    --font-normal: #072636;
-} 
-
-Sabine's version
+Sabine's blue version
 :root {
     --background-dark: #A0C4E2; 
     --background-middle: #9CADCE;
@@ -37,8 +13,7 @@ Sabine's version
     --font-normal: #2F4858;
 } 
 
-*/
-
+Emmelie Alternative 1
 :root {
     --background-dark: #ccd5ae; 
     --background-middle: #fefae0;
@@ -48,6 +23,19 @@ Sabine's version
     --font-light: #ffffff;
     --font-heading: #292F36;
     --font-normal: #292F36;
+} 
+
+*/
+
+:root {
+    --background-dark: #ccd5ae; 
+    --background-middle: #fefae0;
+    --background-light: #FFFFFF;
+    --background-navbar: #ccd5ae80;
+    --background-current-page: #fefae090;
+    --font-light: #ffffff;
+    --font-heading: #463F3A;
+    --font-normal: #463F3A;
 } 
 
 * {
