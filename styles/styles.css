@@ -110,7 +110,10 @@ nav {
     padding: 0.3rem;
     text-align: center;
     margin: 0.3rem;
-
+    background-color: var(--background-dark);
+    color: var(--font-normal);
+    border: 1.5px solid var(--font-normal);
+    border-radius: 5px;
 }
 
 #navbarButton::before {
@@ -262,3 +265,12 @@ footer a {
     list-style-type: none;
 }
 
+.programWeek {
+    display: none;
+}
+
+.programMobile {
+    width: 95%;
+    height: auto;
+    margin: 1rem auto;
+}

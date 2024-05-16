@@ -35,4 +35,15 @@
         display: none;
     }
 
+    .programWeek {
+        display: block;
+        width: 95%;
+        height: auto;
+        margin: 1rem auto;
+    }
+
+    .programMobile {
+        display: none;
+    }
+
 }
