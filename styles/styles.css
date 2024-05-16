@@ -36,6 +36,7 @@ Emmelie Alternative 1
     --font-light: #ffffff;
     --font-heading: #463F3A;
     --font-normal: #463F3A;
+    --font-darker: #bbc49d;
 } 
 
 * {
@@ -110,9 +111,9 @@ nav {
     padding: 0.3rem;
     text-align: center;
     margin: 0.3rem;
-    background-color: var(--background-dark);
-    color: var(--font-normal);
-    border: 1.5px solid var(--font-normal);
+    background-color: var(--background-middle);
+    color: var(--font-darker);
+    border: 1.5px solid var(--font-darker);
     border-radius: 5px;
 }
 
