@@ -30,6 +30,7 @@ Emmelie Alternative 1
 :root {
     --background-dark: #ccd5ae; 
     --background-middle: #fefae0;
+    --background-middlelight: #fffbfa;
     --background-light: #FFFFFF;
     --background-navbar: #ccd5ae80;
     --background-current-page: #fefae090;
@@ -111,7 +112,7 @@ nav {
     padding: 0.3rem;
     text-align: center;
     margin: 0.3rem;
-    background-color: var(--background-middle);
+    background-color: var(--background-middlelight);
     color: var(--font-darker);
     border: 1.5px solid var(--font-darker);
     border-radius: 5px;
