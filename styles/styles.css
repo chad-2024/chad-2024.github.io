@@ -288,4 +288,20 @@ h3.travelHeading {
     margin: 1rem auto;
 }
 
+.mainBreak {
+    height: 2rem;
+    background-color: var(--font-darker);
+    margin: 2rem auto;
+}
 
+.questionBreak {
+    background-color: var(--font-darker);
+}
+
+.quoteSource {
+    font-weight: bold;
+}
+
+#scripturesPage {
+    width: 95%;
+}
